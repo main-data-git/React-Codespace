@@ -3,7 +3,7 @@
 
 function Heading() {
   return (
-    <center className="heading">
+    <center className="fw-bolder">
       <h1>Bharat Clock</h1>
     </center>
   );

@@ -1,15 +1,20 @@
 
 import Heading from "./Components/Heading";
 import IntroLine from "./Components/IntroLine";
+import CurrentTime from "./Components/TimeLine";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 function App() {
   return (
-  
-      <center>
+    <div className="App">
       <Heading />
       <IntroLine />
-      </center>
-
+      <CurrentTime />
+    </div>
   );
 }
+
+
 export default App;
