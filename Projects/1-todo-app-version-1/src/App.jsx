@@ -1,4 +1,6 @@
 
+
+import './App.css';
 import AppName from "./components/AppName";
 import TodoAdd from "./components/TodoAdd";
 import Task1 from "./components/Task1";
