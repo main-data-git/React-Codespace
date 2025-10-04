@@ -10,12 +10,14 @@ import Task2 from "./components/Task2";
 
 function App() {
   return (
-    <center class="todocontainer">
+    <center className="todocontainer">
 
       <AppName />
       <TodoAdd />
-      <Task1 />
-      <Task2 />
+      <div className="items">
+        <Task1 />
+        <Task2 />
+      </div>
 
       
     </center>
