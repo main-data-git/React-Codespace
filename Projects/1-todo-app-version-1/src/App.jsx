@@ -1,9 +1,15 @@
+
+import AppName from "./components/AppName";
+
+
+
+
 function App() {
   return (
     <center class="todocontainer">
-      <h1>Todo App</h1>
+      <AppName />
 
-      
+
       <div class="container text-center">
         <div class="row">
           <div class="col-6">
