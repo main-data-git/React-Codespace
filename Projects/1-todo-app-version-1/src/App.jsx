@@ -1,5 +1,6 @@
 
 import AppName from "./components/AppName";
+import TodoAdd from "./components/TodoAdd";
 
 
 
@@ -7,21 +8,11 @@ import AppName from "./components/AppName";
 function App() {
   return (
     <center class="todocontainer">
+
       <AppName />
+      <TodoAdd />
 
 
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-6">
-            <input type="text" placeholder="Enter Todo Here" />
-          </div>
-          <div class="col-4">
-            <input type="date" />
-          </div>
-          <div class="col-2">
-            <button type="button" class="btn btn-success">Add</button>
-          </div>
-        </div>
 
 
         <div class="row">
